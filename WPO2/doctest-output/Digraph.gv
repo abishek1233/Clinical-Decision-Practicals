@@ -1,0 +1,17 @@
+// Chances for lung cancer
+digraph {
+	L [label="Lung cancer"]
+	G [label=Gender]
+	A [label=Age]
+	S [label=Smoking]
+	P [label=Pollution]
+	X [label="X-Ray"]
+	C [label="Serum Calcium"]
+	A -> S
+	G -> S
+	A -> P
+	S -> L
+	P -> L
+	L -> X
+	L -> C
+}
